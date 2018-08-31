@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
+title: 相逢
+subtitle: 
+description: 相遇,都是久别重逢
 keywords:
-author: John Doe
+author: 无相AKA黄某
 language:
 timezone:
 
@@ -73,7 +73,17 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: suka
+
+# Suka Theme config
+# Documents: https://theme.suka.moe/docs/
+suka_theme:
+  search:
+    path: search.json
+    field: post # Page | Post | All. Default post
+  prism:
+    line_number: true
+    theme: default
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
